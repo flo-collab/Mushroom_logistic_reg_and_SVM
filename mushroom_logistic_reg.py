@@ -71,3 +71,4 @@ false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_prob)
 roc_auc = auc(false_positive_rate, true_positive_rate)
 print(roc_auc)
 
+#roc_auc up to 0.98 
